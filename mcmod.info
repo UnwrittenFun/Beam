@@ -1,0 +1,17 @@
+[
+{
+  "modid" : "Beam",
+  "name" : "Beam",
+  "version" : "0.1.0",
+  "authors": [
+    "UnwrittenFun"
+  ],
+  "description": "Transfer items between inventories using beams!",
+  "url" : "https://github.com/unwrittenfun/Beam",
+  "updateUrl" : "",
+  "logoFile" : "",
+  "parent" : "",
+  "screenshots": [
+  ]
+}
+]
