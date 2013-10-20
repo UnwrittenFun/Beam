@@ -96,16 +96,16 @@ public class BlockItemBeam extends BlockContainer {
 
                 if (beam.totalROff() != 0 ) {
                     beam.setReceiverOffset(0, 0, 0);
-                    player.sendChatToPlayer(ChatMessageComponent.func_111066_d("Beam disconnected"));
+                    player.sendChatToPlayer(ChatMessageComponent.createFromText("Beam disconnected"));
                     return true;
                 }
 
                 if (beam.findReceivingBeam()) {
-                    player.sendChatToPlayer(ChatMessageComponent.func_111066_d("Beam connected"));
+                    player.sendChatToPlayer(ChatMessageComponent.createFromText("Beam connected"));
                     return true;
                 }
 
-                player.sendChatToPlayer(ChatMessageComponent.func_111066_d("Could not locate beam"));
+                player.sendChatToPlayer(ChatMessageComponent.createFromText("Could not locate beam"));
             }
         }
 

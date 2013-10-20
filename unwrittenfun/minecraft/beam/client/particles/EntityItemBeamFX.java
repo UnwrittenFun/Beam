@@ -13,7 +13,7 @@ public class EntityItemBeamFX extends EntityFX {
     public EntityItemBeamFX(World world, double x, double y, double z, double motionX, double motionY, double motionZ, int nBlocks) {
         super(world, x, y, z, motionX, motionY, motionZ);
 
-        func_110125_a(BlockItemBeam.particleIcon);
+        setParticleIcon(BlockItemBeam.particleIcon);
         particleMaxAge = 3 + (nBlocks * 5);
         particleGravity = 0;
         particleScale = 1;

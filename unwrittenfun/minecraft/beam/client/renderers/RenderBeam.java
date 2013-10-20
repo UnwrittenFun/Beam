@@ -27,7 +27,7 @@ public class RenderBeam extends TileEntitySpecialRenderer {
         GL11.glTranslatef((float) x + 0.5F, (float) y + 0.5F, (float) z + 0.5F);
         GL11.glScalef(0.5F, 0.5F, 0.5F);
 
-        Minecraft.getMinecraft().func_110434_K().func_110577_a(texture);
+        Minecraft.getMinecraft().getTextureManager().bindTexture(texture);
         model.render(0.0625F, tileEntity.getBlockMetadata());
 
         GL11.glPopMatrix();
